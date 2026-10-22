@@ -370,8 +370,9 @@ function App() {
         <div className="container">
           <div className="site-footer__main">
             <a className="footer-brand" href="#home" aria-label="Waste Voltaic Foundation home">
-              <span className="footer-brand__mark"><Icon name="leaf" /></span>
-              <span>WASTE VOLTAIC<strong>FOUNDATION</strong></span>
+              {/* <span className="footer-brand__mark"><Icon name="leaf" /></span>
+              <span>WASTE VOLTAIC<strong>FOUNDATION</strong></span> */}
+              <img className="footer-brand__mark" src="https://www.wastevoltaic.org/assets/logo-DIDmVOhh.png" alt="Waste Voltaic Foundation logo" />
             </a>
             <p className="site-footer__mission">
               Making a sustainable future part of everyday life — together.

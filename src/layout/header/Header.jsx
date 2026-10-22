@@ -35,14 +35,17 @@ function Header() {
     <header className="site-header">
       <div className="header-container">
         <a className="header-logo" href="#home" aria-label="Waste Voltaic Foundation home" onClick={closeMenu}>
-          <svg className="header-logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+          {/* <svg className="header-logo__mark" viewBox="0 0 40 40" aria-hidden="true">
             <path d="M19.6 35.3C8.2 33.6 3.8 25.7 6.5 12.2c8.6 1 13.3 6.4 13.1 16.2 1.2-12.2 6.7-19.3 16.1-21.1 1.5 14.6-4.1 24.5-16.1 28Z" />
             <path d="M12.1 18.1 20 35.3l9.9-20.9" />
           </svg>
           <span>
             WASTE VOLTAIC
             <strong>FOUNDATION</strong>
-          </span>
+          </span> */}
+          <img className="header-logo__mark" src="https://www.wastevoltaic.org/assets/logo-DIDmVOhh.png" alt="Waste Voltaic Foundation logo" />
+
+
         </a>
 
         <button
